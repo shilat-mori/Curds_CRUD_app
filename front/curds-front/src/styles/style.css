@@ -1,0 +1,52 @@
+.canvas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+canvas * {
+  display: flex;
+}
+
+.curd {
+  flex-direction: column;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 5%;
+  height: fit-content;
+  margin: 5px;
+  width: 120px;
+}
+
+.curd-content {
+  /* display: flex; */
+  width: 120px;
+  height: fit-content;
+  padding: 60px 10px;
+  justify-self: center;
+}
+
+.color-text {
+  text-shadow: 2px;
+}
+
+.curd-control {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.colors-palette {
+  display: flex;
+  flex-direction: row;
+}
+
+.color {
+  display: flex;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  border: 1px solid rgb(203, 203, 203);
+}
